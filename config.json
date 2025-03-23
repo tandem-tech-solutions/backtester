@@ -1,0 +1,32 @@
+{
+  "MA_CROSSOVER": {
+    "short_window": 20,
+    "long_window": 50,
+    "warmup_period": 15,
+    "description": "Moving Average Crossover Strategy"
+  },
+  "INSIDE_CANDLE_RSI": {
+    "strategy_type": "INSIDE_CANDLE_RSI",
+    "rsi_period": 14,
+    "rsi_overbought": 70,
+    "rsi_oversold": 30,
+    "warmup_period": 20,
+    "stop_loss_pct": 2.0,
+    "take_profit_pct": 4.0,
+    "trailing_stop_pct": 1.5,
+    "max_bars": null,
+    "description": "Inside Candle Breakout with RSI Confirmation Strategy"
+  },
+  "INSIDE_CANDLE_RSI_AGGRESSIVE": {
+    "strategy_type": "INSIDE_CANDLE_RSI",
+    "rsi_period": 14,
+    "rsi_overbought": 65,
+    "rsi_oversold": 35,
+    "warmup_period": 20,
+    "stop_loss_pct": 1.5,
+    "take_profit_pct": 6.0,
+    "trailing_stop_pct": 2.0,
+    "max_bars": null,
+    "description": "Aggressive Inside Candle Breakout with RSI (Tighter Stops, Higher Profit Target)"
+  }
+}
